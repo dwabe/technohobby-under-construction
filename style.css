@@ -1,14 +1,17 @@
 body, html {
     height: 100%;
+    
     margin: 0;
     background-color: white;
   }
   
   .content {
     height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
-    color: white;
-    font-size: 20px;
+    background-color: white;
+    font-size: 16px;
   }
   
   .topleft {
@@ -27,17 +30,17 @@ body, html {
   }
   
   .contact {
-    padding: 15px;
-    margin: 30px auto;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    padding: 10px;
     border-radius: 5px;
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
-    color:#66B0BD
-    
   }
 
   .contact a {
     text-decoration: none;
-    color:#66B0BD
+    color:black;
   }
   
