@@ -1,28 +1,21 @@
 body, html {
     height: 100%;
     margin: 0;
+    background-color: white;
   }
   
   .content {
     height: 100%;
     position: relative;
     color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .topleft {
     position: absolute;
-    top: 0;
-    left: 16px;
-    color: blue;
-  }
-  
-  .bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-    color: blue;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
   }
   
   .middle {
@@ -31,10 +24,20 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: red;
   }
   
-  hr {
-    margin: auto;
-    width: 40%;
+  .contact {
+    padding: 15px;
+    margin: 30px auto;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:#66B0BD
+    
   }
+
+  .contact a {
+    text-decoration: none;
+    color:#66B0BD
+  }
+  
